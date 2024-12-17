@@ -1,13 +1,13 @@
-package com.fininvest;
+package com.back;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FinInvestApplication {
+public class BackApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FinInvestApplication.class, args);
+		SpringApplication.run(BackApplication.class, args);
 	}
 
 }
