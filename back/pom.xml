@@ -12,8 +12,8 @@
 	<artifactId>back</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>back</name>
-	<description>Demo project for Spring Boot</description>
+	<name>fininvest</name>
+	<description>Back end FinInvest</description>
 	<url/>
 	<licenses>
 		<license/>
