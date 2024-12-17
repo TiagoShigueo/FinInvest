@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS users (
     role VARCHAR(20) NOT NULL
 );
 
-INSERT INTO users (name, email, password, role) VALUES ("Tiago", "tiago@email.com", "$2a$10$ccOdQijprWoRyqQZyTwN/uSFBzPPcqfnkTstnvhShuLPfLysPfVLW", 1); -- Senha Shigueo
+INSERT INTO users (name, email, password, role) VALUES ("Tiago", "tiago@email.com", "$2a$10$ccOdQijprWoRyqQZyTwN/uSFBzPPcqfnkTstnvhShuLPfLysPfVLW", 1); -- Senha Shigueo; role 0 = admin 1 = user
