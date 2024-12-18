@@ -60,4 +60,8 @@ public class Transaction {
     @JoinColumn(name = "bank_code", referencedColumnName = "bank_code")
     private Bank bank_code;
 
+    // Para transferência estou pensando em criar uma variável com conta origem e
+    // conta destino e no front habilitar o campo apenas quando selecionar
+    // Transferência
+
 }
