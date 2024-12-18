@@ -34,7 +34,7 @@ public class SecurityConfig {
                 .authorizeHttpRequests(
                         authorizeConfig -> {
                             authorizeConfig
-                                    .requestMatchers(HttpMethod.POST, "/auth/login", "/logout", "/auth/register")
+                                    .requestMatchers(HttpMethod.POST, "/auth/login", "/auth/logout", "/auth/register")
                                     .permitAll()
                                     .requestMatchers(HttpMethod.GET, "/users").hasRole("ADMIN")
                                     .anyRequest().authenticated(); // Requer autenticação para outras rotas
