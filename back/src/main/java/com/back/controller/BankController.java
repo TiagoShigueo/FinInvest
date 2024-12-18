@@ -1,6 +1,5 @@
 package com.back.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +18,6 @@ import com.back.repository.BankRepository;
 public class BankController {
     @Autowired
     BankRepository bankRepository;
-
-    public static List<Bank> banks = new ArrayList<>();
 
     @GetMapping
     public ResponseEntity<List<Bank>> getBanks() {

@@ -1,6 +1,5 @@
 package com.back.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +18,6 @@ import com.back.repository.CategoryRepository;
 public class CategoryController {
     @Autowired
     CategoryRepository categoryRepository;
-
-    public static List<Category> categories = new ArrayList<>();
 
     @GetMapping
     public ResponseEntity<List<Category>> getCategory() {
