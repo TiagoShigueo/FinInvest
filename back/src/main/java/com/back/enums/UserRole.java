@@ -1,4 +1,4 @@
-package com.back.model;
+package com.back.enums;
 
 public enum UserRole {
     ADMIN("admin"),

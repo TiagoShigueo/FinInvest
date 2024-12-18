@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.back.config.TokenService;
 import com.back.dto.LoginResponseDTO;
 import com.back.dto.RegisterDTO;
+import com.back.enums.UserRole;
 import com.back.model.Auth;
 import com.back.model.User;
-import com.back.model.UserRole;
 import com.back.repository.UserRepository;
 import com.back.service.AuthService;
 
