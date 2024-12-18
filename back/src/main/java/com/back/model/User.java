@@ -52,6 +52,9 @@ public class User implements UserDetails {
     @Column(name = "role")
     private UserRole role;
 
+    // Dá para colocar um campo Status se o user está ativo ou não, para não
+    // precisar deletar
+
     public User(String email, String password, String name, UserRole role) {
         this.email = email;
         this.password = password; // Posso alterar para receber login mesmo como username e armazenar o email, mas
