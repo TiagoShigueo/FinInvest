@@ -8,6 +8,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AuthModule } from './auth/auth.module';
 import { FinanceModule } from './finance/finance.module';
 import { HttpClientModule } from '@angular/common/http';
+import { LayoutModule } from './layout/layout.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -19,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
     AuthModule,
     FinanceModule,
     HttpClientModule,
+    LayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
