@@ -8,9 +8,7 @@ import { LoginService } from '../../auth/services/login.service';
   templateUrl: './home.component.html',
 })
 export class HomeComponent {
-  constructor(private loginService: LoginService) {
-    console.log(localStorage);
-  }
+  constructor(private loginService: LoginService) {}
   onLogout() {
     this.loginService.logout();
   }
