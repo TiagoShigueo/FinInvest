@@ -4,8 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'front';
+  isLoggedIn: boolean = false;
+  constructor() {
+    this.isLoggedIn = !!localStorage.getItem('authToken');
+  }
+  title = 'FinInvest';
 }

@@ -1,4 +1,4 @@
-<div class="bg-body-tertiary">
-  <app-navbar></app-navbar>
+<app-navbar *ngIf="isLoggedIn"></app-navbar>
+<div class="bg-dark bg-gradient">
   <router-outlet></router-outlet>
 </div>
