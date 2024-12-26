@@ -9,6 +9,6 @@ export class Transaction {
     public type: TransactionType,
     public amount: number,
     public category: Category,
-    public bank: Bank
+    public bank_code: Bank
   ) {}
 }
